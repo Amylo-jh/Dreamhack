@@ -1,0 +1,6 @@
+go to /admin page
+and copy paste session id
+and replace cookie at developer tools 
+refresh
+
+magic!
