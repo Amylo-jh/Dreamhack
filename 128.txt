@@ -1,0 +1,10 @@
+https://book.hacktricks.xyz/network-services-pentesting/27017-27018-mongodb
+
+mongodb의 Object ID는 조합하여 만들 수 있다.
+
+Timestamp는 UTC+9가 안 되어있는 것에 유의하자.
+
+9시간 더하고 TImestamp -> decimal -> hex
+Counter는 이전 값에 1 더하면 된다.
+
+이후 조합하고 나서, /api/board/{oid값}
