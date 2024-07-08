@@ -1,0 +1,15 @@
+php와 mysql의 특성에 대해 잘 알고 있어야 한다.
+
+php는 문자열 비교를 할 때 대소문자 비교를 한다.
+하지만 mysql은 테이블에 별도로 binary 옵션을 주지 않는 경우 대소문자 구별을 하지 않기 때문에,
+
+id = GuEsT
+pw = guest
+
+하면 뚫린다.
+
+mysqli_real_escape_string을 우회하려고 %aa 를 붙이는 삽질을 할 수 있는데, 안 뚫린다.
+왜냐하면 멀티바이트 인코딩을 하긴 하지만, mb_convert_encoding 함수가 같이 쓰여야만 %aa와 역슬래시가 하나로 묶여
+mysqli_real_escape_string에서 붙인 역슬래시가 무력화 되기 때문이다.
+
+이 문제에서는 mysqli_real_escape_string만 있고, mb_convert_encoding는 쓰이지 않기 때문에 해당 방법으로는 인젝션이 불가하다.
