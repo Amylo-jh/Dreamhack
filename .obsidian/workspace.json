@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "3ab2db48531d74c0",
-        "type": "tabs",
+        "id": "f6f5d59f87ba59a5",
+        "type": "split",
         "children": [
           {
-            "id": "f9280d6825076024",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "329.md",
-                "mode": "source",
-                "source": false
+            "id": "941d83a1d382b6a4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9ff5e0878e45f6a0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "412.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "83ae07a0dd406671",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fc20fb77913285a6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "768.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "329.md",
+                "file": "768.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "329.md",
+                "file": "768.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "329.md"
+                "file": "768.md"
               }
             }
           }
@@ -149,8 +174,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f9280d6825076024",
+  "active": "fc20fb77913285a6",
   "lastOpenFiles": [
+    "412.md",
+    "768.md",
     "329.md",
     "Image_storage/image.png"
   ]
