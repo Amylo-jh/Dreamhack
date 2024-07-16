@@ -10,6 +10,7 @@
           {
             "id": "941d83a1d382b6a4",
             "type": "tabs",
+            "dimension": 37.202380952380956,
             "children": [
               {
                 "id": "9ff5e0878e45f6a0",
@@ -41,6 +42,7 @@
           {
             "id": "86cb88a14c990547",
             "type": "tabs",
+            "dimension": 62.797619047619044,
             "children": [
               {
                 "id": "4dfd32157f881b91",
@@ -187,12 +189,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a6dd2eb79f7ae99f",
+  "active": "4dfd32157f881b91",
   "lastOpenFiles": [
-    "329.md",
-    "1050.md",
-    "412.md",
+    "Pasted image 20240717023754.png",
     "768.md",
+    "1050.md",
+    "Pasted image 20240717022606.png",
+    "329.md",
+    "412.md",
     "Image_storage/Pasted image 20240716210503.png",
     "Image_storage/image.png"
   ]
