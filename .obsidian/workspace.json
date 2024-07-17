@@ -4,72 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5958fb4717e490d9",
-        "type": "split",
+        "id": "941d83a1d382b6a4",
+        "type": "tabs",
         "children": [
           {
-            "id": "941d83a1d382b6a4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fc20fb77913285a6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "324.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "fc20fb77913285a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "324.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "1de5c45110e84f7e",
-            "type": "split",
-            "children": [
-              {
-                "id": "060f0261223ef0dc",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "23fc1b6b4327425d",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "329.md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    }
-                  }
-                ]
-              },
-              {
-                "id": "6ed1b9964bd7342f",
-                "type": "tabs",
-                "children": [
-                  {
-                    "id": "ca1a4c4188c11a72",
-                    "type": "leaf",
-                    "state": {
-                      "type": "markdown",
-                      "state": {
-                        "file": "324.md",
-                        "mode": "source",
-                        "source": false
-                      }
-                    }
-                  }
-                ]
-              }
-            ],
-            "direction": "vertical"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,15 +149,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ca1a4c4188c11a72",
+  "active": "fc20fb77913285a6",
   "lastOpenFiles": [
-    "329.md",
+    "Image_storage/Pasted image 20240717194634.png",
     "324.md",
+    "329.md",
     "768.md",
-    "Pasted image 20240717203023.png",
-    "Pasted image 20240717202825.png",
-    "Pasted image 20240717202812.png",
-    "Pasted image 20240717194634.png",
+    "Image_storage/Pasted image 20240717203023.png",
+    "Image_storage/Pasted image 20240717202825.png",
+    "Image_storage/Pasted image 20240717202812.png",
     "conflict-files-obsidian-git.md",
     "Image_storage/Pasted image 20240717023754.png",
     "Image_storage/Pasted image 20240717022606.png",
