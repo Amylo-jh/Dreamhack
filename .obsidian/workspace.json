@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "941d83a1d382b6a4",
+        "id": "a11e1636f8135a15",
         "type": "tabs",
         "children": [
           {
-            "id": "fc20fb77913285a6",
+            "id": "bda7045a70d20531",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "324.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "324.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "324.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "324.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,10 +141,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc20fb77913285a6",
+  "active": "bda7045a70d20531",
   "lastOpenFiles": [
-    "Image_storage/Pasted image 20240717194634.png",
     "324.md",
+    "Image_storage/Pasted image 20240717194634.png",
     "329.md",
     "768.md",
     "Image_storage/Pasted image 20240717203023.png",
