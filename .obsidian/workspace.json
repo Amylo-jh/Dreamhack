@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "941d83a1d382b6a4",
+        "id": "5e71cd9cef168f8c",
         "type": "tabs",
         "children": [
           {
-            "id": "fc20fb77913285a6",
+            "id": "8aef7443ef02331b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "768.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "768.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "768.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "768.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,12 +141,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc20fb77913285a6",
+  "active": "a6dd2eb79f7ae99f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "768.md",
+    "Image_storage/Pasted image 20240717203023.png",
+    "Image_storage/Pasted image 20240717202825.png",
+    "Image_storage/Pasted image 20240717202812.png",
+    "Image_storage/Pasted image 20240717194634.png",
+    "CCE/CCE 2023.md",
+    "CCE",
+    "324.md",
     "1050.md",
     "Image_storage/Pasted image 20240717023754.png",
     "Image_storage/Pasted image 20240717022606.png",
-    "768.md",
     "329.md",
     "412.md",
     "Image_storage/Pasted image 20240716210503.png",
