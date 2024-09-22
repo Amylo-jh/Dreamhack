@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a11e1636f8135a15",
+        "id": "5e71cd9cef168f8c",
         "type": "tabs",
         "children": [
           {
-            "id": "bda7045a70d20531",
+            "id": "8aef7443ef02331b",
             "type": "leaf",
             "state": {
               "type": "release-notes",
@@ -143,19 +143,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bda7045a70d20531",
+  "active": "a6dd2eb79f7ae99f",
   "lastOpenFiles": [
-    "324.md",
-    "Image_storage/Pasted image 20240717194634.png",
-    "329.md",
+    "conflict-files-obsidian-git.md",
     "768.md",
     "Image_storage/Pasted image 20240717203023.png",
     "Image_storage/Pasted image 20240717202825.png",
     "Image_storage/Pasted image 20240717202812.png",
-    "conflict-files-obsidian-git.md",
+    "Image_storage/Pasted image 20240717194634.png",
+    "CCE/CCE 2023.md",
+    "CCE",
+    "324.md",
+    "1050.md",
     "Image_storage/Pasted image 20240717023754.png",
     "Image_storage/Pasted image 20240717022606.png",
-    "1050.md",
+    "329.md",
     "412.md",
     "Image_storage/Pasted image 20240716210503.png",
     "Image_storage/image.png"
