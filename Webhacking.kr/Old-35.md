@@ -201,5 +201,5 @@ echo "-->\n";
 - 가장 쉽게 생각해 볼 수 있는 form의 hidden값인 guest를 admin으로 바꿔 제출하는 것은 차단된다.
 	- 서버 측 php 코드에서 id값이 admin으로 전달되었다면 `you are not admin`문구 출력과 함께 더이상 진행되지 않는다.
 	- 따라서 guest 값은 그대로 둔다.
-- 서버 측 php 코드에서, mysql에 insert 구문 실행시, 사용자가 입력한 값을 Prepared Statements 사용하지 않고 그대로 쿼리문에 추가하여 사용하고 있다.
+- 서버 측 php 코드에서, mysql에 insert 구문 실행시, 사용자가 입력한 값을 Prepared Statement를 사용하지 않고 그대로 쿼리문에 추가하여 사용하고 있다.
 - 
