@@ -132,3 +132,4 @@ insert into chall35(id, ip, phone) values('guest', '111.117.xxx.xxx', 1234), ('a
 - 위 쿼리가 실행되면, DB에는 두 개의 행이 저장되고, 뒤따르는 admin IP가 현재 접속한 사용자 IP와 일치하는지 검증하는 코드 실행시 결과값이 참이 되어 `solve(35)` 함수가 실행, 플래그를 얻을 수 있다.
 ### 결과
 ![[Pasted image 20250510203752.png]]
+
