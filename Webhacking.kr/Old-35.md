@@ -4,6 +4,8 @@
 ```
 
 # 검색 키워드
+- SQL Injection
 
+# 해설
 
 ![[Pasted image 20250510203752.png]]
