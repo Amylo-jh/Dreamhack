@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "b236dc1f15847e5b",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "5e71cd9cef168f8c",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "362a626abefeff05",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Webhacking.kr/Old-35.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Old-35"
+              "title": "New tab"
             }
           }
         ]
@@ -168,11 +164,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "362a626abefeff05",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Webhacking.kr/Old-35.md",
     "Pasted image 20250511024720.png",
     "329.md",
-    "Webhacking.kr/Old-35.md",
     "Pasted image 20241120161232.png",
     "Pasted image 20250510203752.png",
     "118.md",
@@ -193,7 +189,6 @@
     "Image_storage/Pasted image 20240717023754.png",
     "Image_storage/Pasted image 20240717022606.png",
     "412.md",
-    "Image_storage/Pasted image 20240716210503.png",
-    "Image_storage/image.png"
+    "Image_storage/Pasted image 20240716210503.png"
   ]
 }
