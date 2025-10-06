@@ -1,0 +1,14 @@
+/* << LIVE PREVIEW inline code >> */
+/* .cm-s-obsidian span.cm-inline-code {
+    color: rgb(255, 90, 90);
+} */
+
+/* << READING VIEW inline code >> */
+/* .markdown-preview-view code {
+    color: rgb(255, 90, 90);
+} */
+
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting),
+.markdown-rendered :not(pre) > code {
+    color: rgb(255, 90, 90);
+}
