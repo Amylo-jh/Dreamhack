@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "410.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "410"
             }
           }
         ]
@@ -166,6 +170,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "410.md",
     "1874.md",
     "Pasted image 20251006124357.png",
     "1114.md",
