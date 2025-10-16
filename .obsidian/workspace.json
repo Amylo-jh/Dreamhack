@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "410.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "410"
+              "title": "New tab"
             }
           }
         ]
@@ -170,6 +166,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "410.md",
     "Pasted image 20251009020932.png",
     "1114.md",
     "974.md",
@@ -177,7 +174,6 @@
     "117.md",
     "768.md",
     "412.md",
-    "410.md",
     "1874.md",
     "Pasted image 20251006124357.png",
     "Image_storage/Pasted image 20251006111100.png",
@@ -196,7 +192,6 @@
     "Webhacking.kr",
     "conflict-files-obsidian-git.md",
     "Image_storage/Pasted image 20240717203023.png",
-    "Image_storage/Pasted image 20240717202825.png",
     "CCE/CCE 2023.md",
     "CCE"
   ]
