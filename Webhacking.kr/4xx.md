@@ -50,7 +50,25 @@ Content-Length: 0
 ```
 - `KEY{e44fa3e1865a3839cbc0b658f1ae08cf}`
 ## 416 Range Not Satisfiable
+- 특정 내용의 범위를 지정해서 보내달라고 요청을 했는데, 그 내용이 서버에 저장된 컨텐츠 내용 범위 바깥일 경우
+- Range 구문을 사용할 수 있다.
+```HTTP Request
+GET /?key10=&key2=&key3=&key4=&key5=&key6=&key7=&key8=&key9= HTTP/1.1
+Host: webhacking.kr:10022
+Cache-Control: max-age=0
+Accept-Language: ko-KR,ko;q=0.9
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Range: bytes=1000-1999
 
 
+```
+- `KEY{e44fa3e1865a3839cbc0b658f1ae08cf}`
+## 417 Expectations unsupported
+- 
 
-412 414 416 417
+
+412 414 417
