@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "los.rubiya.kr/04 Orc.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "04 Orc"
+              "title": "New tab"
             }
           }
         ]
@@ -170,10 +166,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "los.rubiya.kr/04 Orc.md",
     "los.rubiya.kr/03 Goblin.md",
     "los.rubiya.kr/02 Cobolt.md",
     "los.rubiya.kr/01 Gremlin.md",
-    "los.rubiya.kr/04 Orc.md",
     "Webhacking.kr/g00gle2.md",
     "los.rubiya.kr",
     "Webhacking.kr/g00gle1.md",
