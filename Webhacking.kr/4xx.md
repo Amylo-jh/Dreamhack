@@ -87,7 +87,7 @@ Range: bytes=1000-1999
 
 
 ```
-- `KEY{e44fa3e1865a3839cbc0b658f1ae08cf}`
+- `KEY{622eced9aa42670c10ee74d29e58e5eb}`
 ## 417 Expectations unsupported
 - Expect 를 사용하면 된다.
 ```HTTP Request
@@ -105,3 +105,5 @@ Expect: 100-continueasdf
 ```
 - `KEY{ed2dd6cb38fe6a4a10e46d22d20047e6}`
 
+9개 다 모아서 가면 최종 Flag를 확인할 수 있다.
+이제 Auth에 제출하면 인증을 받을 수 있다.
