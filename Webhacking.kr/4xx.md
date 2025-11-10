@@ -49,6 +49,27 @@ Content-Length: 0
 
 ```
 - `KEY{e44fa3e1865a3839cbc0b658f1ae08cf}`
+## 412 Precondition Failed
+- 요청한 자원에 대해 ETag가 일치하지 않을 경우
+- If-Match, If-Unmodified-Since
+```HTTP Request
+GET /img/flag.png HTTP/1.1
+Host: webhacking.kr:10022
+Accept-Language: ko-KR,ko;q=0.9
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+If-Match: "this-is-a-fake-etag-123"
+
+
+```
+- `KEY{cd7609461c0dbe41a9137056fa4085e2}`
+## 414 URI Too Long
+- URL을 많이 보내면 된다. URL 길이 제한을 서버에서 걸어 둔 것보다 길게 보내면 된다.
+- GET 경로에 A 엄청 넣기 터질때까지
+- `KEY{d1617527ac2143863bc347c6123ed921}`
 ## 416 Range Not Satisfiable
 - 특정 내용의 범위를 지정해서 보내달라고 요청을 했는데, 그 내용이 서버에 저장된 컨텐츠 내용 범위 바깥일 경우
 - Range 구문을 사용할 수 있다.
@@ -68,7 +89,19 @@ Range: bytes=1000-1999
 ```
 - `KEY{e44fa3e1865a3839cbc0b658f1ae08cf}`
 ## 417 Expectations unsupported
-- 
+- Expect 를 사용하면 된다.
+```HTTP Request
+GET / HTTP/1.1
+Host: webhacking.kr:10022
+Accept-Language: ko-KR,ko;q=0.9
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Expect: 100-continueasdf
 
 
-412 414 417
+```
+- `KEY{ed2dd6cb38fe6a4a10e46d22d20047e6}`
+
