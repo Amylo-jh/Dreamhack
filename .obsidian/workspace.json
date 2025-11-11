@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "los.rubiya.kr/05 Wolfman.md",
+                "file": "los.rubiya.kr/07 Orge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 Wolfman"
+              "title": "07 Orge"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,13 +183,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "734890e9f6ca9c16",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "los.rubiya.kr/03 Goblin.md",
-    "los.rubiya.kr/02 Cobolt.md",
     "los.rubiya.kr/06 Darkelf.md",
+    "los.rubiya.kr/07 Orge.md",
     "los.rubiya.kr/05 Wolfman.md",
     "los.rubiya.kr/04 Orc.md",
+    "los.rubiya.kr/03 Goblin.md",
+    "los.rubiya.kr/02 Cobolt.md",
     "los.rubiya.kr/01 Gremlin.md",
     "Webhacking.kr/g00gle2.md",
     "los.rubiya.kr",
@@ -221,7 +223,6 @@
     "Webhacking.kr",
     "conflict-files-obsidian-git.md",
     "Image_storage/Pasted image 20240717203023.png",
-    "CCE/CCE 2023.md",
     "CCE"
   ]
 }
