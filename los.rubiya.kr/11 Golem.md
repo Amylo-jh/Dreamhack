@@ -66,4 +66,9 @@ if __name__ == "__main__":
 		- 또는 범위를 좁게 지정한 대소비교로도 지정 가능하지만 페이로드가 길어진다.
 - 31번째 줄 또는 32번째 줄 둘 중 하나만 사용하여 익스플로잇이 가능하다.
 - mysql에서 hex() 함수를 실행해도 앞에 0x를 붙이지 않고, 그냥 문자열로 출력하기 때문에 이걸 16진수랑 직접 비교하면 값 비교가 잘못 일어나게 된다.
+- 대체 가능한 mysql 함수들
+	- substr
+	- substring
+	- mid / left / right / lpad / rpad
+	- locate / regexp / position / rlike / insert
 - 
