@@ -7,7 +7,7 @@ import string
 import sys
 
 URL = "https://los.rubiya.kr/chall/orc_60e5b360f95c1f9688e4f3a86c5dd494.php"
-CHARSET = "abcdefghijklmnopqrstuvwxyz0123456789"
+CHARSET = string.ascii_letters + string.digits
 MAX_LEN = 32
 COOKIES = {"PHPSESSID": "ql3tqlmum5mkma8kd3as04ppph"}
 
@@ -64,4 +64,6 @@ if __name__ == "__main__":
 	- `addslashes` 함수가 우회하는 것을 막기 때문에, 두 번째 쿼리는 정직하게 비밀번호를 찾아와야만 뚫을 수 있다.
 	- 이를 위해 첫 번째 쿼리의 SQL Injection을 활용해서 admin 계정의 비밀번호를 알아 와야 한다.
 - PHP세션 ID를 쿠키로 주지 않으면 패스워드가 맞는지 여부를 확인할 수 없기 때문에, 파이썬으로 request를 보낼 때 쿠키 값을 같이 붙여서 보내야 한다.
+- 파이썬에서는 'a-z0-9' 같은 것을 미리 정의해 둔 string 모듈이 있다.
+	- `string.ascii_letters + string.digits` 해서 CHARSET에 할당하면 빠르고 정확하게 사용할 문자열을 지정할 수 있다.
 - 
