@@ -18,3 +18,6 @@ for i in range(1500, 1801):
         break
 ```
 - 이후 찾은 페이로드를 직접 실행해 보고, 이미지가 깨져서 나오는데 개발자 도구로 확인하여 base64로 인코딩된 플래그를 디코딩하면 원래의 플래그를 찾을 수 있다.
+- ssrf를 이용하는 문제이다.
+- 참고 사이트
+	- https://www.hahwul.com/cullinan/attack/ssrf/
