@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dreamhack/434 XSS Filtering Bypass Advanced.md",
+                "file": "Dreamhack/438 DOM XSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "434 XSS Filtering Bypass Advanced"
+              "title": "438 DOM XSS"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "29fb3614b340f3bf",
   "lastOpenFiles": [
-    "Dreamhack/1874 flag-shop.md",
     "Dreamhack/434 XSS Filtering Bypass Advanced.md",
+    "Dreamhack/438 DOM XSS.md",
+    "Dreamhack/1874 flag-shop.md",
     "Dreamhack/1560 Where-is-localhost.md",
     "Dreamhack/1114 addition-quiz.md",
     "Dreamhack/1050 weird legacy.md",
@@ -200,7 +201,6 @@
     "los.rubiya.kr/06 Darkelf.md",
     "los.rubiya.kr/07 Orge.md",
     "los.rubiya.kr/08 Troll.md",
-    "los.rubiya.kr/09 Vampire.md",
     "los.rubiya.kr",
     "_Image_storage/Pasted image 20251009020932.png",
     "_Image_storage/Pasted image 20251006111100.png",

