@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e16ad1607fb310eb",
+        "id": "c0368f2a19aa4cca",
         "type": "tabs",
         "children": [
           {
-            "id": "29fb3614b340f3bf",
+            "id": "78a945a297b2f685",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dreamhack/12 pathtraversal.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "12 pathtraversal"
+              "title": "New tab"
             }
           }
         ]
@@ -168,10 +164,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "29fb3614b340f3bf",
+  "active": "a6dd2eb79f7ae99f",
   "lastOpenFiles": [
-    "Dreamhack/39 simple-ssti.md",
+    "Dreamhack/Untitled.md",
     "Dreamhack/12 pathtraversal.md",
+    "Dreamhack/39 simple-ssti.md",
     "Webhacking.kr/CHILD.md",
     "Webhacking.kr/BABY.md",
     "Dreamhack/438 DOM XSS.md",
@@ -199,7 +196,6 @@
     "_Image_storage/image.png",
     "los.rubiya.kr/13 Bugbear.md",
     "Dreamhack",
-    "Untitled.md",
     "_Image_storage/Pasted image 20251006124357.png",
     "los.rubiya.kr",
     "_Image_storage/Pasted image 20251009020932.png",
