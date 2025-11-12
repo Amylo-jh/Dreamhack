@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dreamhack/38 image-storage.md",
+                "file": "Dreamhack/75 web-ssrf.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "38 image-storage"
+              "title": "75 web-ssrf"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "78a945a297b2f685",
   "lastOpenFiles": [
-    "Webhacking.kr/Old-25.md",
     "Dreamhack/38 image-storage.md",
+    "Dreamhack/75 web-ssrf.md",
+    "Webhacking.kr/Old-25.md",
     "Dreamhack/12 pathtraversal.md",
     "Dreamhack/39 simple-ssti.md",
     "Webhacking.kr/CHILD.md",
@@ -195,7 +196,6 @@
     "Dreamhack/117 cmd_center.md",
     "Dreamhack/90 Mango.md",
     "Dreamhack/13 proxy-1.md",
-    "CCE/CCE 2023.md",
     "_Image_storage/image-2.png",
     "_Image_storage/image-1.png",
     "_Image_storage/image.png",
