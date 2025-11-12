@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Webhacking.kr/CHILD.md",
+                "file": "Dreamhack/39 simple-ssti.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CHILD"
+              "title": "39 simple-ssti"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "29fb3614b340f3bf",
   "lastOpenFiles": [
-    "Webhacking.kr/BABY.md",
     "Webhacking.kr/CHILD.md",
+    "Dreamhack/39 simple-ssti.md",
+    "Webhacking.kr/BABY.md",
     "Dreamhack/438 DOM XSS.md",
     "Dreamhack/433 XSS Filtering Bypass.md",
     "Dreamhack/434 XSS Filtering Bypass Advanced.md",
@@ -200,7 +201,6 @@
     "Untitled.md",
     "_Image_storage/Pasted image 20251006124357.png",
     "los.rubiya.kr/05 Wolfman.md",
-    "los.rubiya.kr/06 Darkelf.md",
     "los.rubiya.kr",
     "_Image_storage/Pasted image 20251009020932.png",
     "_Image_storage/Pasted image 20251006111100.png",
