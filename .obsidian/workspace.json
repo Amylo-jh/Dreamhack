@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Webhacking.kr/BABY.md",
+                "file": "Webhacking.kr/CHILD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BABY"
+              "title": "CHILD"
             }
           }
         ]
@@ -170,8 +170,10 @@
   },
   "active": "29fb3614b340f3bf",
   "lastOpenFiles": [
-    "Dreamhack/438 DOM XSS.md",
     "Webhacking.kr/BABY.md",
+    "Webhacking.kr/CHILD.md",
+    "Dreamhack/438 DOM XSS.md",
+    "Dreamhack/433 XSS Filtering Bypass.md",
     "Dreamhack/434 XSS Filtering Bypass Advanced.md",
     "Dreamhack/1874 flag-shop.md",
     "Dreamhack/1560 Where-is-localhost.md",
@@ -179,7 +181,6 @@
     "Dreamhack/1050 weird legacy.md",
     "Dreamhack/974 baby-bof.md",
     "Dreamhack/768 command-injection-chatgpt.md",
-    "Dreamhack/433 XSS Filtering Bypass.md",
     "Dreamhack/412 error based sql injection.md",
     "Dreamhack/410 shell_basic.md",
     "Dreamhack/329 (wargame.kr) type confusion.md",
@@ -200,7 +201,6 @@
     "_Image_storage/Pasted image 20251006124357.png",
     "los.rubiya.kr/05 Wolfman.md",
     "los.rubiya.kr/06 Darkelf.md",
-    "los.rubiya.kr/07 Orge.md",
     "los.rubiya.kr",
     "_Image_storage/Pasted image 20251009020932.png",
     "_Image_storage/Pasted image 20251006111100.png",
