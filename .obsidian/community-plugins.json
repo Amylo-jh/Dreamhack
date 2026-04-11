@@ -6,5 +6,11 @@
   "text-extractor",
   "obsidian-wakatime",
   "omnisearch",
-  "homepage"
+  "homepage",
+  "obsidian-banners",
+  "calendar",
+  "editing-toolbar",
+  "obsidian-excalidraw-plugin",
+  "pdf-plus",
+  "sticky-heading"
 ]
