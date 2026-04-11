@@ -108,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#system-hacking",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,8 +129,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -253,7 +252,7 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "78a945a297b2f685",
+  "active": "a6dd2eb79f7ae99f",
   "lastOpenFiles": [
     "Dreamhack/410 shell_basic.md",
     "Dreamhack/117 cmd_center.md",
