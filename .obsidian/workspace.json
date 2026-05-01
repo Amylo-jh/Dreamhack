@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c0368f2a19aa4cca",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "78a945a297b2f685",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dreamhack/3 basic_exploitation_001.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "3 basic_exploitation_001"
+              "title": "새 탭"
             }
           }
         ]
@@ -197,10 +193,10 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "78a945a297b2f685",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Dreamhack/351 Return Address Overwrite.md",
     "Dreamhack/3 basic_exploitation_001.md",
+    "Dreamhack/351 Return Address Overwrite.md",
     "Dreamhack/410 shell_basic.md",
     "Dreamhack/117 cmd_center.md",
     "Dreamhack/974 baby-bof.md",
