@@ -11,10 +11,14 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dreamhack/3 basic_exploitation_001.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "3 basic_exploitation_001"
             }
           }
         ]
@@ -196,10 +200,12 @@
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Dreamhack/352 Return to Shellcode.md",
-    "Dreamhack/351 Return Address Overwrite.md",
+    "Dreamhack/33 ssp_001.md",
+    "Dreamhack/13 proxy-1.md",
+    "Dreamhack/12 pathtraversal.md",
     "Dreamhack/3 basic_exploitation_001.md",
     "Dreamhack/2 basic_exploitation_000.md",
-    "Dreamhack/33 ssp_001.md",
+    "Dreamhack/351 Return Address Overwrite.md",
     "Dreamhack/410 shell_basic.md",
     "Dreamhack/117 cmd_center.md",
     "Dreamhack/974 baby-bof.md",
@@ -207,7 +213,6 @@
     "Dreamhack/75 web-ssrf.md",
     "Dreamhack/38 image-storage.md",
     "Webhacking.kr/Old-25.md",
-    "Dreamhack/12 pathtraversal.md",
     "Dreamhack/39 simple-ssti.md",
     "Webhacking.kr/CHILD.md",
     "Webhacking.kr/BABY.md",
@@ -220,7 +225,6 @@
     "Dreamhack/1050 weird legacy.md",
     "Dreamhack/768 command-injection-chatgpt.md",
     "Dreamhack/412 error based sql injection.md",
-    "Dreamhack/324 (wargame.kr) fly me to the moon.md",
     "_Image_storage/image-2.png",
     "_Image_storage/image-1.png",
     "_Image_storage/image.png",
