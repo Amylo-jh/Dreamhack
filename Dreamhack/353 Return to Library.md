@@ -46,4 +46,11 @@ p.interactive()
 		- `ROPgadget --binary ./rtl --re "pop rdi"` 명령어로 바이너리에 있는 것 중 해당 정규식 조건을 만족하는 가젯의 위치를 가져온다.
 	- `ret` 가젯의 위치
 		- `ROPgadget --binary ./rtl | grep ": ret"` 명령어로 단일 ret 명령만 있는 가젯의 주소를 가져온다.
-	- 
+- 페이로드를 조립한다.
+	- A 0x38개, 카나리 값, sfp 덮을 B 8개
+	- return(system) 모사
+		- ret 가젯으로 점프하는 주소 추가 (리턴 후, 다시 리턴하면서 pop_rdi로 /bin/sh로 점프할 수 있게.)
+		- pop_rdi 가젯 위치 추가
+		- `/bin/sh` 주소값 추가 (rdi에 들어갈 문자)
+		- plt상 system 함수 주소값 추가
+	- 넣어 둔 ret 가젯 위치로 리턴 후, 다시 리턴할 때 pop rdi로 스택에 /bin/sh 추가, 리턴 주소는 plt@system, 매개변수는 /bin/sh이므로 쉘을 획득할 수 있다.
