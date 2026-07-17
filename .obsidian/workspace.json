@@ -4,65 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a5f1d30b95b17f2b",
-        "type": "split",
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
         "children": [
           {
-            "id": "0afc4891aa5e5d85",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "43a90b17010adb42",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dreamhack/353 Return to Library.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "353 Return to Library"
-                }
-              },
-              {
-                "id": "f4c5aa4e7c043564",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dreamhack/2 basic_exploitation_000.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2 basic_exploitation_000"
-                }
-              }
-            ]
-          },
-          {
-            "id": "c9642b85b4acce8f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1c7231be46ab5372",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Dreamhack/33 ssp_001.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "33 ssp_001"
-                }
-              }
-            ]
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,10 +193,10 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "43a90b17010adb42",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Dreamhack/33 ssp_001.md",
     "Dreamhack/353 Return to Library.md",
+    "Dreamhack/33 ssp_001.md",
     "Dreamhack/2 basic_exploitation_000.md",
     "Dreamhack/3 basic_exploitation_001.md",
     "Dreamhack/352 Return to Shellcode.md",
